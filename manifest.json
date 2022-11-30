@@ -1,0 +1,21 @@
+{
+    "name": "Facelook", 
+    "short_name": "Facelook",
+    "start_url": ".",
+    "theme_color": "#4287f5",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons":[
+      {
+        "src":"images/fb-logo.jpg",
+        "sizes": "192x192",
+        "type": "image/jpg"
+      },
+      {
+        "src":"images/fb-logo.jpg",
+        "sizes": "512x512",
+        "type": "image/jpg"
+      }
+    ]
+  
+  }
